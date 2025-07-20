@@ -1,0 +1,133 @@
+# Initialize kernel
+/run/initialize
+/vis/viewer/set/autoRefresh false
+/vis/open OGL 600x600-0+0
+/vis/drawVolume
+#/vis/viewer/set/background white
+/vis/viewer/zoom 0.7
+/vis/geometry/set/visibility World 0 false
+/vis/geometry/set/visibility Empty 0 false
+/vis/geometry/set/visibility LogTarget1 0 true
+#/vis/geometry/set/visibility Target1
+/vis/viewer/set/style wireframe
+/vis/viewer/set/auxiliaryEdge true
+/vis/viewer/set/lineSegmentsPerCircle 100
+/vis/viewer/set/hiddenMarker
+/vis/viewer/set/viewpointThetaPhi 100. 270.
+/tracking/storeTrajectory 1
+/vis/scene/create
+/vis/scene/add/userAction
+/vis/sceneHandler/attach
+/vis/scene/add/trajectories
+/vis/scene/add/trajectories rich
+#/vis/scene/add/scale   # Simple scale line
+#/vis/scene/add/axes    # Simple axes: x=red, y=green, z=blue.
+/vis/set/textColour red
+/vis/scene/add/text -14 38 -2 cm -30 28 -30 <-----Container with Calcium
+#/vis/scene/add/text 50 38 -23 cm 72 28 -30 ---------------
+#/vis/scene/add/text 50 28 -16 cm 72 28 -16 _______________________________
+/vis/set/textColour red
+# Attach text to one corner of Shape2, with a small, fixed offset
+/vis/scene/add/text 56 0 -30 cm 24 20 0 Neutron Source:
+/vis/scene/add/text 56 0 -20 cm 24 20 0  4x10^8 neutrons/cm^2 per second
+#/vis/scene/add/text 50 28 -20 cm 72 28 -20 _______________________________
+/vis/set/textColour green
+/vis/scene/add/text 12 38 42 cm 20 28 -30 <----------->
+/vis/scene/add/text 2 38 40 cm 24 -3 -30 155 mm
+/vis/scene/add/text 20 38 48 cm 20 38 -30 <--------------------->
+/vis/scene/add/text 2 38 46 cm 20 -3 -30 250 mm
+/vis/scene/add/text 28 38 2 cm 20 20 -30 750 mm
+/vis/scene/add/text 20.5 35 -34 cm 14 25 -30 /\
+/vis/scene/add/text 20 38 -34 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -33 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -32 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -31 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -30 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -29 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -28 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -27 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -26 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -25 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -24 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -23 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -22 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -21 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -20 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -19 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -18 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -17 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -16 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -15 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -14 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -13 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -12 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -11 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -10 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -9 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -8 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -7 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -6 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -5 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -4 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -3 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -2 cm 14 25 -30 |
+/vis/scene/add/text 20 38 -1 cm 14 25 -30 |
+/vis/scene/add/text 20 38 0 cm 14 25 -30 |
+/vis/scene/add/text 20 38 1 cm 14 25 -30 |
+/vis/scene/add/text 20 38 2 cm 14 25 -30 |
+/vis/scene/add/text 20 38 3 cm 14 25 -30 |
+/vis/scene/add/text 20 38 4 cm 14 25 -30 |
+/vis/scene/add/text 20 38 5 cm 14 25 -30 |
+/vis/scene/add/text 20 38 6 cm 14 25 -30 |
+/vis/scene/add/text 20 38 7 cm 14 25 -30 |
+/vis/scene/add/text 20 38 8 cm 14 25 -30 |
+/vis/scene/add/text 20 38 9 cm 14 25 -30 |
+/vis/scene/add/text 20 38 10 cm 14 25 -30 |
+/vis/scene/add/text 20 38 11 cm 14 25 -30 |
+/vis/scene/add/text 20 38 12 cm 14 25 -30 |
+/vis/scene/add/text 20 38 13 cm 14 25 -30 |
+/vis/scene/add/text 20 38 14 cm 14 25 -30 |
+/vis/scene/add/text 20 38 15 cm 14 25 -30 |
+/vis/scene/add/text 20 38 16 cm 14 25 -30 |
+/vis/scene/add/text 20 38 17 cm 14 25 -30 |
+/vis/scene/add/text 20 38 18 cm 14 25 -30 |
+/vis/scene/add/text 20 38 19 cm 14 25 -30 |
+/vis/scene/add/text 20 38 20 cm 14 25 -30 |
+/vis/scene/add/text 20 38 21 cm 14 25 -30 |
+/vis/scene/add/text 20 38 22 cm 14 25 -30 |
+/vis/scene/add/text 20 38 23 cm 14 25 -30 |
+/vis/scene/add/text 20 38 24 cm 14 25 -30 |
+/vis/scene/add/text 20 38 25 cm 14 25 -30 |
+/vis/scene/add/text 20 38 26 cm 14 25 -30 |
+/vis/scene/add/text 20 38 27 cm 14 25 -30 |
+/vis/scene/add/text 20 38 28 cm 14 25 -30 |
+/vis/scene/add/text 20 38 29 cm 14 25 -30 |
+/vis/scene/add/text 20 38 30 cm 14 25 -30 |
+/vis/scene/add/text 20 38 31 cm 14 25 -30 |
+/vis/scene/add/text 20 38 32 cm 14 25 -30 |
+/vis/scene/add/text 20 38 33 cm 14 25 -30 |
+/vis/scene/add/text 20 38 34 cm 14 25 -30 |
+/vis/scene/add/text 20 38 35 cm 14 25 -30 |
+/vis/scene/add/text 20 38 36 cm 14 25 -30 |
+/vis/scene/add/text 20 38 37 cm 14 25 -30 |
+/vis/scene/add/text 20 38 38 cm 14 25 -30 |
+/vis/scene/add/text 20 38 39 cm 14 25 -30 |
+/vis/scene/add/text 20.5 38 39 cm 14 25 -30 \/
+#
+# Draw hits at end of event:
+/vis/filtering/trajectories/create/particleFilter
+/vis/filtering/trajectories/particleFilter-0/add neutron
+/vis/modeling/trajectories/create/drawByParticleID
+/vis/modeling/trajectories/drawByParticleID-0/default/setDrawStepPts true
+/vis/modeling/trajectories/list
+/vis/modeling/trajectories/drawByParticleID-0/set neutron white
+/vis/scene/endOfEventAction accumulate
+/vis/reviewKeptEvents
+/vis/scene/add/hits
+/gun/particle neutron
+/gun/energy 14.1 MeV
+/gun/position 0. 0. 0. m
+/gun/number 1
+/run/beamOn 200
+/vis/viewer/flush
+
